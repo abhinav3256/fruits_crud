@@ -8,6 +8,7 @@ import (
 func main() {
 
 	db.Db_connection()
+	db.RedisConnect()
 	server.Server()
 
 }
